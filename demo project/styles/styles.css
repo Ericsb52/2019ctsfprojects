@@ -1,0 +1,51 @@
+/*common styles */
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+/*common nav styles */
+/**/
+.nav-wrapper{
+    
+
+    /*hard code sizes*/
+    height:190px;
+    padding: 60px 100px;
+
+    /*colors*/
+    background-color: #11122b;
+    color:#cbcbcb;
+
+    /*display setings*/
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.left-col{
+    display:flex;
+    align-items: center;
+}
+.icon{
+    margin-right: 15px;
+}
+.icon i{
+    font-size: 2em;
+}
+
+.left-col > .contact-hours-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+.contact-hours-wrapper > .hours{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.nav-link a{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.adress-wrapper{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
