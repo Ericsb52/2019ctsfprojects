@@ -3,41 +3,192 @@
 
 <head>
     <meta charset = "utf-8"/>
-    <title>Demo project Menu</title>
+    <title>Demo project menu</title>
     <meta name= "viewport" content = "width=device-width, initial-scale = 1">
 
+    <!-- imbeded styles exe-->
+    <!-- <style>
+        h1{
+            color:red;
+            text-decoration: underline;
+        }
+    </style> -->
 
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/3a48da4fa9.js"></script>
 
     <!-- external style sheet -->
-    <link rel="stylesheet" href="../styles/styles.css">
-
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/pages.css">
+    <link rel="stylesheet" href="../styles/helpers.css">
+    
 </head>
 
 <body>
-
-    <div>
+        <div class="skewed-header">
+            <div class="header-bg" style="background-image: url('../images/backgrounds/menu.jpg');"></div>
         
-        <h1 > 
-            Menu page
-        </h1>
+                <div class="skewed-header-wrapper">
 
-        <a href="../index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="menu.html">Menu</a>
-        <a href="contact.html">Contact</a>
+                    <div class="skewed-header-content">
+
+                        <div class="heading-wrapper">
+                            <h1>Menu</h1>
+                        </div>
+                        <div class="links-wrapper">
+                            <div class="nav-link">
+                                <a href="../index.html">Home</a>
+                            </div>
+                            <div class="nav-link">
+                                <a href="about.html">About</a>
+                            </div>
+                            <div class="nav-link">
+                                <a href="menu.html">Menu</a>
+                            </div>
+                            <div class="nav-link">
+                                <a href="contact.html">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         
-    </div>
+        
+        <div class="squares-wrap">
+            <div class="squares">
 
-    <p>
-        content
-    </p>
+                <div class="square">
+                    <div class="img-wrapper">
+                        <img src="../images/squares/fries-sq-1.jpg" alt="food image">
+                    </div>
+                    <div class="square-text">
+                        <a href="#World Famous" name="World Famous" class="anchor-link">
+                            <h1>
+                                World Famous
+                            </h1>
+                        </a>
 
+                        <ul>
+                            <li>some menu items</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li>Iusto officia quod dolores explicabo sequi vitae laborum!</li>
+                            <li>Laboriosam ducimus praesentium deserunt. Ad quas aliquam odio!</li>
+                            <li>Nemo ipsa perspiciatis dignissimos eos officiis, mollitia in.</li>
 
+                        </ul>
+                    </div>
+                </div>
 
+                <div class="square">
+                        
+                    <div class="square-text">
+                        <a href="#Regular" name="Regular" class="anchor-link">
+                            <h1>
+                                Regular
+                            </h1>
+                        </a>
+                        <ul>
+                            <li>some menu items</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li>Iusto officia quod dolores explicabo sequi vitae laborum!</li>
+                            <li>Laboriosam ducimus praesentium deserunt. Ad quas aliquam odio!</li>
+                            <li>Nemo ipsa perspiciatis dignissimos eos officiis, mollitia in.</li>
 
+                        </ul>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="../images/squares/fries-sq-2.jpg" alt="food image">
+                    </div>
+                </div>
 
+                <div class="square">
+                    <div class="img-wrapper">
+                        <img src="../images/squares/fries-sq-1.jpg" alt="food image">
+                    </div>
+                    <div class="square-text">
+                        <a href="#Mild" name="Mild" class="anchor-link">
+                            <h1>
+                                Mild
+                            </h1>
+                        </a>
+                        <ol>
+                                <li>some menu items</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Iusto officia quod dolores explicabo sequi vitae laborum!</li>
+                                <li>Laboriosam ducimus praesentium deserunt. Ad quas aliquam odio!</li>
+                                <li>Nemo ipsa perspiciatis dignissimos eos officiis, mollitia in.</li> 
+                        </ol>
+                    </div>
+                </div>
+                <div class="square">
+                    
+                    <div class="square-text">
+                        <a href="#Spicy" name="Spicy" class="anchor-link">
+                            <h1>
+                                Spicy
+                            </h1>
+                        </a>
+                        <ul>
+                            <li>some menu items</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            <li>Iusto officia quod dolores explicabo sequi vitae laborum!</li>
+                            <li>Laboriosam ducimus praesentium deserunt. Ad quas aliquam odio!</li>
+                            <li>Nemo ipsa perspiciatis dignissimos eos officiis, mollitia in.</li>
 
+                        </ul>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="../images/squares/fries-sq-2.jpg" alt="food image">
+                    </div>
+                </div>
 
-</body>
-
+            </div>
+        </div>
+        
+        <div class="spacer60"></div>
+        
+        <div class="footer">
+                <div class="logo">
+                    <img src="../images/logos/decamp-fantastic-fries-logo-white.png" alt="logo">
+                </div>
+                <div class="contact-info">
+                    <span class="number">
+                        (555) 555-5555
+                    </span>
+                    <span class="hours">
+                        10:AM - Midnight
+                    </span>
+                </div>
+                <div class="links-wrapper">
+                    <div class="nav-link">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="nav-link">
+                        <a href="pages/about.html">About</a>
+                    </div>
+                    <div class="nav-link">
+                        <a href="pages/menu.html">Menu</a>
+                    </div>
+                    <div class="nav-link">
+                        <a href="pages/contact.html">Contact</a>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+                <div class="copyright">
+                    &copy; 2018 ebroadbent &#124; all rights reserved
+                </div>
+                
+            </div>
+    </body>
 </html>

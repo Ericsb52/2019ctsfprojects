@@ -1,0 +1,218 @@
+/* header styles*/
+.skewed-header{
+    position: relative;
+    height:400px;
+    overflow: hidden;
+}
+.skewed-header > .header-bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(50%)
+
+
+}
+.skewed-header > .skewed-header-wrapper{
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    width:100vw;
+}
+.skewed-header > .skewed-header-wrapper >.skewed-header-content{
+    width:1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skewed-header > .skewed-header-wrapper >.skewed-header-content > .heading-wrapper{
+    background-color: #cea135;
+    color: #11122b;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    width:175px;
+    padding: 10px;
+    text-align: center;
+
+}
+/*main body styles  */ 
+.page-container{
+    display: flex;
+    justify-content: center;
+
+}
+.page-container > .content-wrap {
+    width:1000px;
+}
+.page-container > .content-wrap > #chef {
+    width:350px;
+    margin: 23px 40px 20px 0px;
+    float:left;
+    border: 1px solid #cea135;
+}
+.page-container > .content-wrap > p{
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+/* square grid styles*/
+.squares-wrap{
+    display:flex;
+    justify-content: center;
+}
+.squares-wrap > .squares{
+    width:1000px;
+
+}
+.squares-wrap > .squares > .square{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: -4px;
+}
+.square > .img-wrapper > img{
+    width:100%;
+    height: 500px;
+    object-fit: cover;
+
+}
+.square > .square-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 42px;
+}
+
+.square > .square-text h1{
+    color: #cea135;
+}
+
+/* contacts styles */
+.contact-grid-wrap{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+}
+.contact-grid-wrap > .contact-info-side-bar-wrap > .logo img{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.contact-info-side-bar-wrap > .info-wrap{
+    font-family: "Ubuntu Condensed", "sans-serif";
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 1.25em
+
+
+}
+.contact-info-side-bar-wrap > .info-wrap > i{
+    color: #cea135;
+}
+
+/* form styles */
+
+.form > .form-group{
+    margin:30px 0px;
+}
+
+.form  input{
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding:1.5rem 2rem;
+    border-radius: 3px;
+    border: none;
+    border-bottom: 3px solid #11122b;
+    width: 100%;
+    display: block;
+    transition: all .3s;
+
+
+}
+.form input:focus{
+    outline: none;
+    box-shadow: 0 2rem 2rem rgba(0,0,0,0.2);
+    border-bottom: 3px solid #cea135;
+}
+.form textarea{
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    border-radius: 3px;
+    border: 3px solid #11122b;
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: color;
+    padding: 1.5rem;
+    transition: all 0.3s;
+}
+.form textarea:focus{
+    outline: none;
+    box-shadow: 0 2rem 2rem rgba(0,0,0,0.2);
+    border: 3px solid #cea135;
+}
+.form input::-webkit-input-placeholder,.form textarea::-webkit-input-placeholder{
+    color: #11122b;
+
+}
+.form input:focus::-webkit-input-placeholder,.form textarea:focus::-webkit-input-placeholder{
+    color: transparent;
+}
+
+.form label{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin:0.7rem 0px 0px 2rem;
+    display: block;
+    transition: all;
+    color: #cea135;
+    visibility: hidden;
+    opacity: 0;
+
+
+}
+.form input:focus + label, .form textarea:focus + label{
+    opacity: 1;
+    visibility:visible;
+    transform: translateY(1rem)
+
+}
+.center-button-wrap{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color: #cea135;
+    color: #11122b;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid #cea135;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.btn:active{
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.4)
+
+}
+
+
+
+
+
+

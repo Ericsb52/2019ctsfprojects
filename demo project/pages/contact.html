@@ -3,40 +3,158 @@
 
 <head>
     <meta charset = "utf-8"/>
-    <title>Demo project Contact</title>
+    <title>Demo project contact</title>
     <meta name= "viewport" content = "width=device-width, initial-scale = 1">
 
+    <!-- imbeded styles exe-->
+    <!-- <style>
+        h1{
+            color:red;
+            text-decoration: underline;
+        }
+    </style> -->
 
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/3a48da4fa9.js"></script>
 
     <!-- external style sheet -->
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/pages.css">
+    <link rel="stylesheet" href="../styles/helpers.css">
 
+    
 </head>
 
 <body>
+        <div class="skewed-header">
+            <div class="header-bg" style="background-image: url('../images/backgrounds/contact.jpg');"></div>
+        
+                <div class="skewed-header-wrapper">
 
-    <div>
-        <h1 > 
-            Contact page
-        </h1>
+                    <div class="skewed-header-content">
 
-        <a href="../index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="menu.html">Menu</a>
-        <a href="contact.html">Contact</a>
+                        <div class="heading-wrapper">
+                            <h1>Contact Us</h1>
+                        </div>
+                        <div class="links-wrapper">
+                            <div class="nav-link">
+                                <a href="../index.html">Home</a>
+                            </div>
+                            <div class="nav-link">
+                                <a href="about.html">About</a>
+                            </div>
+                            <div class="nav-link">
+                                <a href="menu.html">Menu</a>
+                            </div>
+                            <div class="nav-link">
+                                <a href="contact.html">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    </div>
+        <div class="page-container">
+            <div class="contact-grid-wrap">
 
-    <p>
-        content
-    </p>
+                <div class="contact-info-side-bar-wrap">
+                    <div class="logo">
+                        <img src="../images/logos/decamp-fantastic-fries-logo-dark.png" alt="logo">
+                    </div>
 
+                    <div class="info-wrap">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                                123 Any Street<br>
+                                Tooele, UT, 84074
+                        </div>
+                    </div>
 
+                    <div class="info-wrap">
+                        <i class="fas fa-phone-volume"></i>
+                        <div>
+                            (555) 555-5555
+                        </div>
+                    </div>
 
+                    <div class="info-wrap">
+                        <i class="far fa-clock"></i>
+                        <div>
+                            10:AM - Midnight
+                        </div>
+                    </div>
 
+                </div>
+                <div class="form">
+                    <div class="form-group">
+                        <input type="text" id="fullName" placeholder="Your name">
+                        <label for="fullName" >Your name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your email">
+                        <label for="email" >Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                        <label for="message" >Message</label>
+                    </div>
+                    
+                    <div class="spacer10"></div>
 
+                    <div class="center-button-wrap">
+                        <button type="submit" class="btn">
+                            Send
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
 
-
-</body>
-
+        <div class="spacer60"></div>
+     
+        <div class="footer">
+                <div class="logo">
+                    <img src="../images/logos/decamp-fantastic-fries-logo-white.png" alt="logo">
+                </div>
+                <div class="contact-info">
+                    <span class="number">
+                        (555) 555-5555
+                    </span>
+                    <span class="hours">
+                        10:AM - Midnight
+                    </span>
+                </div>
+                <div class="links-wrapper">
+                    <div class="nav-link">
+                        <a href="index.html">Home</a>
+                    </div>
+                    <div class="nav-link">
+                        <a href="pages/about.html">About</a>
+                    </div>
+                    <div class="nav-link">
+                        <a href="pages/menu.html">Menu</a>
+                    </div>
+                    <div class="nav-link">
+                        <a href="pages/contact.html">Contact</a>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+                <div class="copyright">
+                    &copy; 2018 ebroadbent &#124; all rights reserved
+                </div>
+                
+            </div>
+    </body>
 </html>
