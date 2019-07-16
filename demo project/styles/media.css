@@ -29,5 +29,53 @@
         font-size: 1.5em;
         width: 100%;
     }
-    
+
+    .hero-sec{
+        padding:50px 10px;
+    }
+    .features-sec{
+        height:100%;
+    }
+    .features-sec > .column-wrapper{
+        width: 100%;
+        flex-direction:column;
+    }
+    .footer{
+        height:100%;
+    }
+    .skewed-header> .skewed-header-wrapper>.skewed-header-content{
+        flex-direction: column;
+    }
+    .skewed-header>.header-bg{
+        background-size: 550px;
+    }
+    .page-container{
+        padding:0px 21px;
+    }
+    .content-wrap > #chef{
+        margin: 0px 0px 25px 0px !important;
+        width: 100% !important;
+    }
+    .square{
+        grid-template-columns: 1fr !important;
+    }
+    .square>.img-wrapper{
+        order:2;
+    }
+    .square>.square-text{
+        order:1;
+    }
+    .contact-grid-wrap{
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+    .form input{
+        padding: 1.5rem 0rem;
+
+    }
+    .form textarea{
+        padding: 1.5rem 0rem;
+        
+    }
 }
