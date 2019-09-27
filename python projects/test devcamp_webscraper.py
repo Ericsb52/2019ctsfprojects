@@ -28,14 +28,10 @@ links = soup.find_all("a")
 #call method to format all the titles of the links
 titles = titles_gen(links)
 #display titles formated corectley
-counts = Counter(titles)
-print(counts)
-counts_sorted = sorted(counts.items(), key=lambda x: x[1])
-print(counts_sorted)
-median = statistics.median(counts)
-print(median)
 
-##for title in titles:
-##    print (title)
+
+for title in titles:
+    print (title)
+
 
 

@@ -59,5 +59,3 @@ def main():
 
 main()
 input("press enter to exit")
-
-
